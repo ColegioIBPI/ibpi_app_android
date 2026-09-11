@@ -1,0 +1,7 @@
+<resources>
+    <!--
+        Tema aplicado antes do Compose assumir a renderização. As cores reais da interface
+        vivem no core:designsystem (IbpiTheme); aqui basta uma base sem ActionBar.
+    -->
+    <style name="Theme.MyIBPI" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

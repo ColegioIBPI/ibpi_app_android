@@ -1,0 +1,17 @@
+# Normaliza finais de linha: o repositorio guarda LF, cada sistema recebe o seu no checkout.
+* text=auto
+
+# O wrapper do Gradle roda via /bin/sh no CI Linux. Com CRLF o shell falha com
+# "bad interpreter: /bin/sh^M", entao ele precisa de LF mesmo em checkout no Windows.
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Scripts do Windows precisam de CRLF.
+*.bat text eol=crlf
+
+# Binarios nao passam por conversao.
+*.jar binary
+*.png binary
+*.webp binary
+*.jpg binary
+*.keystore binary

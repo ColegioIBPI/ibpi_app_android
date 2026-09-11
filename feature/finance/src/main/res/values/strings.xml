@@ -1,0 +1,4 @@
+<resources>
+    <string name="finance_title">Financeiro</string>
+    <string name="finance_placeholder">Mensalidades, boletos, PIX e comprovantes de pagamento.</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="attendance_title">Frequência e Ocorrências</string>
+    <string name="attendance_placeholder">Presença, faltas e ocorrências disciplinares e acadêmicas do aluno.</string>
+</resources>

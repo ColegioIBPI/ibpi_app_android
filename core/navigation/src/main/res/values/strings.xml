@@ -1,0 +1,7 @@
+<resources>
+    <string name="destination_attendance">Frequência</string>
+    <string name="destination_report_card">Boletim</string>
+    <string name="destination_announcements">Avisos</string>
+    <string name="destination_finance">Financeiro</string>
+    <string name="destination_info">Informações</string>
+</resources>

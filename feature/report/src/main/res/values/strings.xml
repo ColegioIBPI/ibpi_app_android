@@ -1,0 +1,4 @@
+<resources>
+    <string name="report_card_title">Boletim</string>
+    <string name="report_card_placeholder">Notas e desempenho escolar por período letivo.</string>
+</resources>
