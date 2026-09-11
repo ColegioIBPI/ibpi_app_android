@@ -22,7 +22,7 @@ Cada task deve caber em uma sessão de trabalho. Toda task de código inclui **t
 - [ ] Criar projeto no Firebase e habilitar Authentication (e-mail/senha), Firestore e Storage
 - [ ] Adicionar `google-services.json` em `app/` e aplicar o plugin `google-services`
 - [ ] Criar módulo `core:firebase` (providers de Auth, Firestore e Storage)
-- [ ] Primeiro commit e push para `ColegioIBPI/ibpi_app_android`
+- [x] Primeiro commit e push para `ColegioIBPI/ibpi_app_android` *(CI verde no primeiro build)*
 - [ ] Aplicar logo e cores oficiais do colégio no `core:designsystem`
 - [ ] Atualizar o Android Studio para uma versão 2025.x e, junto, subir para AGP 8.13.x + compileSdk 36 + Kotlin 2.4.x
 - [ ] Criar convention plugins do Gradle quando a duplicação entre módulos justificar

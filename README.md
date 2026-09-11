@@ -302,7 +302,13 @@ Fica explicitamente fora: gateway de pagamento, e-mail transacional além do pad
 ### 9.2 Repositório
 
 - GitHub: `ColegioIBPI/ibpi_app_android`
-- Branch `main`, ainda sem commits no momento do levantamento.
+- Branch única: `main`.
+- CI no GitHub Actions (`.github/workflows/ci.yml`) roda testes unitários e build de debug a cada push e pull request.
+
+**Duas armadilhas de trabalhar no Windows com CI Linux**, já resolvidas mas que voltam a cada script novo:
+
+- **Bit de execução.** O Windows não tem permissão de execução, então arquivos como o `gradlew` entram no git com modo `100644` e o runner Ubuntu falha com *Permission denied*. Corrija com `git update-index --chmod=+x <arquivo>` antes de commitar qualquer script `.sh`.
+- **Finais de linha.** O `.gitattributes` força LF no `gradlew` e nos `.sh`; sem isso, um checkout com CRLF quebra o shell do CI com *bad interpreter*.
 
 ### 9.3 Painel web administrativo
 
